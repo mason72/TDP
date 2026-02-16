@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* HotfolderPrintsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* HotfolderPrintsApp.swift */; };
+		A10000000000000000000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppState.swift */; };
+		A10000000000000000000003 /* FitMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* FitMode.swift */; };
+		A10000000000000000000004 /* ImageSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ImageSlot.swift */; };
+		A10000000000000000000005 /* PrintJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* PrintJob.swift */; };
+		A10000000000000000000006 /* PrintSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* PrintSize.swift */; };
+		A10000000000000000000007 /* PrintTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* PrintTemplate.swift */; };
+		A10000000000000000000008 /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* TextOverlay.swift */; };
+		A10000000000000000000009 /* DuplicateDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* DuplicateDetector.swift */; };
+		A10000000000000000000010 /* FolderWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* FolderWatcher.swift */; };
+		A10000000000000000000011 /* ImageCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* ImageCompositor.swift */; };
+		A10000000000000000000012 /* PrintQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* PrintQueueManager.swift */; };
+		A10000000000000000000013 /* PrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* PrintService.swift */; };
+		A10000000000000000000014 /* TemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* TemplateManager.swift */; };
+		A10000000000000000000015 /* ColorProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* ColorProfileManager.swift */; };
+		A10000000000000000000016 /* FileFilterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* FileFilterUtility.swift */; };
+		A10000000000000000000017 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* ImageUtils.swift */; };
+		A10000000000000000000018 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* MainView.swift */; };
+		A10000000000000000000019 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* SidebarView.swift */; };
+		A10000000000000000000020 /* EventSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* EventSettingsView.swift */; };
+		A10000000000000000000021 /* FolderPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000021 /* FolderPickerView.swift */; };
+		A10000000000000000000022 /* PrinterPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000022 /* PrinterPickerView.swift */; };
+		A10000000000000000000023 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000023 /* SetupView.swift */; };
+		A10000000000000000000024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000024 /* CanvasView.swift */; };
+		A10000000000000000000025 /* LayersPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000025 /* LayersPanelView.swift */; };
+		A10000000000000000000026 /* SlotConfigPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000026 /* SlotConfigPanel.swift */; };
+		A10000000000000000000027 /* TemplateEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000027 /* TemplateEditorView.swift */; };
+		A10000000000000000000028 /* TemplateGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000028 /* TemplateGalleryView.swift */; };
+		A10000000000000000000029 /* TextOverlayEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000029 /* TextOverlayEditor.swift */; };
+		A10000000000000000000030 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000030 /* DashboardView.swift */; };
+		A10000000000000000000031 /* IncomingPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000031 /* IncomingPhotosView.swift */; };
+		A10000000000000000000032 /* PrintQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000032 /* PrintQueueView.swift */; };
+		A10000000000000000000033 /* PrintBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000033 /* PrintBrowserView.swift */; };
+		A10000000000000000000034 /* PrintDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000034 /* PrintDetailView.swift */; };
+		A10000000000000000000035 /* ReprintSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000035 /* ReprintSheet.swift */; };
+		A10000000000000000000036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000036 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* HotfolderPrintsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotfolderPrintsApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* FitMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitMode.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ImageSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlot.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* PrintJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintJob.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* PrintSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintSize.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* PrintTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTemplate.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* DuplicateDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateDetector.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* FolderWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderWatcher.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* ImageCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompositor.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* PrintQueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintQueueManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* PrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintService.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* TemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* ColorProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProfileManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* FileFilterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFilterUtility.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B10000000000000000000019 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* EventSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000021 /* FolderPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000022 /* PrinterPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPickerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000023 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		B10000000000000000000024 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		B10000000000000000000025 /* LayersPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayersPanelView.swift; sourceTree = "<group>"; };
+		B10000000000000000000026 /* SlotConfigPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotConfigPanel.swift; sourceTree = "<group>"; };
+		B10000000000000000000027 /* TemplateEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateEditorView.swift; sourceTree = "<group>"; };
+		B10000000000000000000028 /* TemplateGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateGalleryView.swift; sourceTree = "<group>"; };
+		B10000000000000000000029 /* TextOverlayEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlayEditor.swift; sourceTree = "<group>"; };
+		B10000000000000000000030 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B10000000000000000000031 /* IncomingPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingPhotosView.swift; sourceTree = "<group>"; };
+		B10000000000000000000032 /* PrintQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintQueueView.swift; sourceTree = "<group>"; };
+		B10000000000000000000033 /* PrintBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintBrowserView.swift; sourceTree = "<group>"; };
+		B10000000000000000000034 /* PrintDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDetailView.swift; sourceTree = "<group>"; };
+		B10000000000000000000035 /* ReprintSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprintSheet.swift; sourceTree = "<group>"; };
+		B10000000000000000000036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000038 /* HotfolderPrints.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotfolderPrints.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000039 /* HotfolderPrints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotfolderPrints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 /* = BEGIN ROOT GROUP = */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* HotfolderPrints */,
+				D10000000000000000000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000039 /* HotfolderPrints.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* HotfolderPrints */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000003 /* App */,
+				D10000000000000000000004 /* Models */,
+				D10000000000000000000005 /* Services */,
+				D10000000000000000000006 /* Utilities */,
+				D10000000000000000000007 /* Views */,
+				D10000000000000000000014 /* Resources */,
+				B10000000000000000000037 /* Info.plist */,
+				B10000000000000000000038 /* HotfolderPrints.entitlements */,
+			);
+			path = HotfolderPrints;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* AppState.swift */,
+				B10000000000000000000001 /* HotfolderPrintsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000003 /* FitMode.swift */,
+				B10000000000000000000004 /* ImageSlot.swift */,
+				B10000000000000000000005 /* PrintJob.swift */,
+				B10000000000000000000006 /* PrintSize.swift */,
+				B10000000000000000000007 /* PrintTemplate.swift */,
+				B10000000000000000000008 /* TextOverlay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* DuplicateDetector.swift */,
+				B10000000000000000000010 /* FolderWatcher.swift */,
+				B10000000000000000000011 /* ImageCompositor.swift */,
+				B10000000000000000000012 /* PrintQueueManager.swift */,
+				B10000000000000000000013 /* PrintService.swift */,
+				B10000000000000000000014 /* TemplateManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000006 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000015 /* ColorProfileManager.swift */,
+				B10000000000000000000016 /* FileFilterUtility.swift */,
+				B10000000000000000000017 /* ImageUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000008 /* MainWindow */,
+				D10000000000000000000009 /* Setup */,
+				D10000000000000000000010 /* TemplateEditor */,
+				D10000000000000000000011 /* EventDashboard */,
+				D10000000000000000000012 /* PrintBrowser */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000008 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000018 /* MainView.swift */,
+				B10000000000000000000019 /* SidebarView.swift */,
+			);
+			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000009 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000020 /* EventSettingsView.swift */,
+				B10000000000000000000021 /* FolderPickerView.swift */,
+				B10000000000000000000022 /* PrinterPickerView.swift */,
+				B10000000000000000000023 /* SetupView.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000010 /* TemplateEditor */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000024 /* CanvasView.swift */,
+				B10000000000000000000025 /* LayersPanelView.swift */,
+				B10000000000000000000026 /* SlotConfigPanel.swift */,
+				B10000000000000000000027 /* TemplateEditorView.swift */,
+				B10000000000000000000028 /* TemplateGalleryView.swift */,
+				B10000000000000000000029 /* TextOverlayEditor.swift */,
+			);
+			path = TemplateEditor;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000011 /* EventDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000030 /* DashboardView.swift */,
+				B10000000000000000000031 /* IncomingPhotosView.swift */,
+				B10000000000000000000032 /* PrintQueueView.swift */,
+			);
+			path = EventDashboard;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000012 /* PrintBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000033 /* PrintBrowserView.swift */,
+				B10000000000000000000034 /* PrintDetailView.swift */,
+				B10000000000000000000035 /* ReprintSheet.swift */,
+			);
+			path = PrintBrowser;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000014 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000036 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* HotfolderPrints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000003 /* Build configuration list for PBXNativeTarget "HotfolderPrints" */;
+			buildPhases = (
+				E10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				E10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotfolderPrints;
+			productName = HotfolderPrints;
+			productReference = B10000000000000000000039 /* HotfolderPrints.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "HotfolderPrints" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000000000000000000001 /* = BEGIN ROOT GROUP = */;
+			productRefGroup = D10000000000000000000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* HotfolderPrints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000036 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* HotfolderPrintsApp.swift in Sources */,
+				A10000000000000000000002 /* AppState.swift in Sources */,
+				A10000000000000000000003 /* FitMode.swift in Sources */,
+				A10000000000000000000004 /* ImageSlot.swift in Sources */,
+				A10000000000000000000005 /* PrintJob.swift in Sources */,
+				A10000000000000000000006 /* PrintSize.swift in Sources */,
+				A10000000000000000000007 /* PrintTemplate.swift in Sources */,
+				A10000000000000000000008 /* TextOverlay.swift in Sources */,
+				A10000000000000000000009 /* DuplicateDetector.swift in Sources */,
+				A10000000000000000000010 /* FolderWatcher.swift in Sources */,
+				A10000000000000000000011 /* ImageCompositor.swift in Sources */,
+				A10000000000000000000012 /* PrintQueueManager.swift in Sources */,
+				A10000000000000000000013 /* PrintService.swift in Sources */,
+				A10000000000000000000014 /* TemplateManager.swift in Sources */,
+				A10000000000000000000015 /* ColorProfileManager.swift in Sources */,
+				A10000000000000000000016 /* FileFilterUtility.swift in Sources */,
+				A10000000000000000000017 /* ImageUtils.swift in Sources */,
+				A10000000000000000000018 /* MainView.swift in Sources */,
+				A10000000000000000000019 /* SidebarView.swift in Sources */,
+				A10000000000000000000020 /* EventSettingsView.swift in Sources */,
+				A10000000000000000000021 /* FolderPickerView.swift in Sources */,
+				A10000000000000000000022 /* PrinterPickerView.swift in Sources */,
+				A10000000000000000000023 /* SetupView.swift in Sources */,
+				A10000000000000000000024 /* CanvasView.swift in Sources */,
+				A10000000000000000000025 /* LayersPanelView.swift in Sources */,
+				A10000000000000000000026 /* SlotConfigPanel.swift in Sources */,
+				A10000000000000000000027 /* TemplateEditorView.swift in Sources */,
+				A10000000000000000000028 /* TemplateGalleryView.swift in Sources */,
+				A10000000000000000000029 /* TextOverlayEditor.swift in Sources */,
+				A10000000000000000000030 /* DashboardView.swift in Sources */,
+				A10000000000000000000031 /* IncomingPhotosView.swift in Sources */,
+				A10000000000000000000032 /* PrintQueueView.swift in Sources */,
+				A10000000000000000000033 /* PrintBrowserView.swift in Sources */,
+				A10000000000000000000034 /* PrintDetailView.swift in Sources */,
+				A10000000000000000000035 /* ReprintSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F10000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		F10000000000000000000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotfolderPrints/HotfolderPrints.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HotfolderPrints/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotfolderprints.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F10000000000000000000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotfolderPrints/HotfolderPrints.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HotfolderPrints/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotfolderprints.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "HotfolderPrints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000010 /* Debug */,
+				F10000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000003 /* Build configuration list for PBXNativeTarget "HotfolderPrints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000020 /* Debug */,
+				F10000000000000000000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E10000000000000000000010 /* Project object */;
+}
