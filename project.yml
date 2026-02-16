@@ -1,0 +1,40 @@
+name: HotfolderSlideshow
+options:
+  bundleIdPrefix: com.hotfolderslideshow
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  HotfolderSlideshow:
+    type: application
+    platform: macOS
+    sources:
+      - path: HotfolderSlideshow
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hotfolderslideshow.app
+        INFOPLIST_FILE: HotfolderSlideshow/Info.plist
+        CODE_SIGN_ENTITLEMENTS: HotfolderSlideshow/HotfolderSlideshow.entitlements
+        PRODUCT_NAME: "Hotfolder Slideshow"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: HotfolderSlideshow/Info.plist
+      properties:
+        CFBundleName: "Hotfolder Slideshow"
+        CFBundleDisplayName: "Hotfolder Slideshow"
+        CFBundleIdentifier: com.hotfolderslideshow.app
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0.0"
+        CFBundlePackageType: APPL
+        CFBundleExecutable: "$(EXECUTABLE_NAME)"
+        LSMinimumSystemVersion: "$(MACOSX_DEPLOYMENT_TARGET)"
+        NSHumanReadableCopyright: "Copyright 2026. All rights reserved."
+        LSApplicationCategoryType: "public.app-category.utilities"
